@@ -1,0 +1,84 @@
+﻿<Page x:Class="Workers.Properties.Info"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Workers.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="688" d:DesignWidth="1500"
+      Title="Info">
+
+    <Grid Background="White">
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="C:\Users\262007\Downloads\Workers-master\Workers-master\Workers\Properties\111.jpg" Margin="20" Width="350" Height="350"/>
+                <StackPanel Margin="30" Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" >
+                        <StackPanel Margin="10" Orientation="Vertical">
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >FIRST NAME</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >LAST NAME</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >PREFIX</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >TITLE</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >ADDRESS</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >CITY</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >STATE</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >ZIPCODE</TextBlock>
+                        </StackPanel>
+                        <StackPanel Margin="10" Orientation="Vertical">
+                            <TextBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">Brad</TextBox>
+                            <TextBox FontSize="20" Margin="5.5" Width="200" Foreground="Black">Farkus</TextBox>
+                            <ComboBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">Mr</ComboBox>
+                            <TextBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">Engineering</TextBox>
+                            <TextBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">1635 Woods Drive</TextBox>
+                            <TextBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">Los Angeles</TextBox>
+                            <ComboBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">CA</ComboBox>
+                            <TextBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">90069</TextBox>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" >
+                        <StackPanel Margin="10" Orientation="Vertical">
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >HOME PHONE</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >MOBILE PHONE</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >EMAIL</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >SKYPE</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >DEPARTAMENT</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >STATUS</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >HIRE DATE</TextBlock>
+                            <TextBlock Margin="7" FontSize="20" Foreground="gray" HorizontalAlignment="Left" >DOB</TextBlock>
+                        </StackPanel>
+                        <StackPanel Margin="10" Orientation="Vertical">
+                            <TextBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">(213) 555-2747</TextBox>
+                            <TextBox FontSize="20" Margin="5.5" Width="200" Foreground="Black">(213) 555-3626</TextBox>
+                            <TextBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">bradf@dz-email.com</TextBox>
+                            <TextBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">brad_DX_skype</TextBox>
+                            <ComboBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">Mr</ComboBox>
+                            <ComboBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">Mr</ComboBox>
+                            <ComboBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">Mr</ComboBox>
+                            <ComboBox FontSize="20" Margin="5.5"  Width="200" Foreground="Black">Mr</ComboBox>
+                        </StackPanel>
+                    </StackPanel>
+                    <Label BorderBrush="Black" BorderThickness="2" Margin="5" Width="270">
+                        <TextBlock  TextWrapping="Wrap" FontSize="16">Brad is on probation for excessive tardiness. We hope to see him back at his desk shortly</TextBlock>
+                    </Label>
+                </StackPanel>
+            </StackPanel>
+
+
+        </StackPanel>
+        
+        
+        
+        
+        
+        
+        
+        
+        <StackPanel VerticalAlignment="Bottom"  Height="100" Background="#4e4e4e">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
